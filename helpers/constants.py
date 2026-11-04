@@ -9,6 +9,7 @@ class Config:
     LOGIN = f"{BASE_URL}/api/auth/login"
     USER = f"{BASE_URL}/api/auth/user"
     ORDERS = f"{BASE_URL}/api/orders"
+    REDIRECT_LOGIN = f"{BASE_URL}/login"
 
     VALID_INGREDIENT_HASHES = [
         "6ae327a87e8698001b542b3b", "6ae327a87e8698001b542b40"]

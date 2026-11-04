@@ -9,7 +9,7 @@ class TestCreateOrder:
 
     @allure.feature("Управление заказами")
     @allure.story("Создание заказа")
-    @allure.title("Создание заказа: Валидные ингредиенты, без ингредиентов, невалидный хеш")
+    @allure.title("Создание заказа авторизованным пользователем: Валидные ингредиенты, без ингредиентов, невалидный хеш")
     @pytest.mark.parametrize("has_ingredients, valid_hash", [
         (True, True),     # с валидными ингредиентами
         (False, True),    # без ингредиентов
@@ -40,3 +40,17 @@ class TestCreateOrder:
             assert response.status_code == 200
             assert response.json()["success"] is True
             assert "order" in response.json()
+
+    @allure.feature("Управление заказами")
+    @allure.story("Создание заказа")
+    @allure.title("Создание заказа не авторизованным пользователем: Валидные ингредиенты")
+    def test_create_order_not_authorized_user_redirect_to_login(self):
+
+        payload = {"ingredients": Config.VALID_INGREDIENT_HASHES}
+        response = api_client.post(Config.ORDERS, json=payload)
+
+        # Проверяем, что произошёл редирект (вся группа 3хх кодов, так как в доке не указан конкретный код)
+        assert response.status_code // 100 == 3, f"Ожидался статус 3xx, получен {response.status_code}"
+        # Проверяем, что Location header указывает на правильный URL
+        assert response.headers.get("Location") == Config.REDIRECT_LOGIN, \
+            f"Ожидалось Location: {Config.REDIRECT_LOGIN}, получено {response.headers.get('Location')}"
