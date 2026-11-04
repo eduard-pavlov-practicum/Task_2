@@ -1,7 +1,7 @@
 import pytest
 import allure
 from helpers.constants import Config
-from helpers.helpers import generate_random_user_data, api_client, delete_registered_user
+from helpers.helpers import api_client
 
 
 @allure.epic("Stellar Burgers API")

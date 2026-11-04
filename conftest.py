@@ -1,6 +1,6 @@
 import pytest
 from helpers.constants import Config
-from helpers.helpers import generate_random_user_data, api_client, register_user, delete_registered_user
+from helpers.helpers import generate_random_user_data, register_user, delete_registered_user
 
 
 @pytest.fixture
