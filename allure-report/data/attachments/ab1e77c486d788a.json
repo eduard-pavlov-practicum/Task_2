@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "konstantinblohin@mail.ru",
+    "name": "Модест"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWI4NjM5NzY4MTczMDAxYjg3MTVmOSIsImlhdCI6MTc5MzgyMDIxNywiZXhwIjoxNzkzODIxNDE3fQ.gNxsHMcy1ZT62imM7GtuvpYNN4Rre-zscdFHtd8oXj4",
+  "refreshToken": "edd4dd8d61572054afb91f6502c99a8cb83d99b6d40426ead02cee806aa712f724be0f5fd9bc8d6c"
+}

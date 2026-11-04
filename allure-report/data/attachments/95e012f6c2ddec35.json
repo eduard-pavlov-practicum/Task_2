@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "nikanor_81@mail.ru",
+    "name": "Марфа"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWI4NjNhNzY4MTczMDAxYjg3MTVmZCIsImlhdCI6MTc5MzgyMDIxOCwiZXhwIjoxNzkzODIxNDE4fQ.IHazxdPzQ0Q4IOl8rlCmKsPyGTnMtdH6UKNeSK3ZnOY",
+  "refreshToken": "d411f48d0994379d667b60aac5a285441f82b6330643670911911ec0f6e4adc25a05ed9938361f18"
+}

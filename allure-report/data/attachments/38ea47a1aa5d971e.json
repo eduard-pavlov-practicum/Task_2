@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "velimir36@hotmail.com",
+    "name": "Светлана"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWI4NjM4NzY4MTczMDAxYjg3MTVlNSIsImlhdCI6MTc5MzgyMDIxNiwiZXhwIjoxNzkzODIxNDE2fQ.V_k_xQZIL8P3nGIIZwXTkZq0uf2hxwgC4eLarzDn6Rw",
+  "refreshToken": "efa912368125347b02e8a48908ab1785f60bc07208e368f67b7c15b584ec8f3e7ad479f534413211"
+}

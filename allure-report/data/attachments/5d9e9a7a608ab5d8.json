@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "nikola17@gmail.com",
+    "name": "Филипп"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWI4NjM4NzY4MTczMDAxYjg3MTVlNyIsImlhdCI6MTc5MzgyMDIxNiwiZXhwIjoxNzkzODIxNDE2fQ.CEgwuIMdifao8ekztLNZy3oyCOiYB7CnNgJhnKSfnoE",
+  "refreshToken": "27db67b9a4a2c509c855834c647900d29c1384979703453d19b248501a8ddb7577abc62f5d208ad3"
+}

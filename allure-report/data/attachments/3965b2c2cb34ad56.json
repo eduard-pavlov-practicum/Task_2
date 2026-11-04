@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "anisim1979@rambler.ru",
+    "name": "Аполлинарий"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWI4NjM4NzY4MTczMDAxYjg3MTVlMyIsImlhdCI6MTc5MzgyMDIxNiwiZXhwIjoxNzkzODIxNDE2fQ.uRDkarTYyqEWTclFokrP6G4zwcR0e2aUx-HWvc5ZvvQ",
+  "refreshToken": "84850a7c057a7414d3c4d08e7e317ba716f25c752a9ac5aa885cc7b1e0ec0bbeb8c4b27b8c2ed74b"
+}

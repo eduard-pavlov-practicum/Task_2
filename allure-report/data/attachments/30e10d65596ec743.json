@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "mstislav_06@rambler.ru",
+    "name": "Евдоким"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWI4NjM4NzY4MTczMDAxYjg3MTVlYiIsImlhdCI6MTc5MzgyMDIxNiwiZXhwIjoxNzkzODIxNDE2fQ.d9_2p-Dj1SdC2iNYg7vqnAIjkOQ89NrMVv-0VhQvif0",
+  "refreshToken": "5cce7f8055171ef0d7aa256c25b0f6d3d1c13805ecc8ef10e5ebde29181e1eeb0e6a373930670726"
+}

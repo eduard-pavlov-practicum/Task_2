@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWI4NjM5NzY4MTczMDAxYjg3MTVmMiIsImlhdCI6MTc5MzgyMDIxNywiZXhwIjoxNzkzODIxNDE3fQ.8mKK6wY_5p3fpXvlZxsuHlhgmqY6kUp_OodNvzWItvs",
+  "refreshToken": "1fbf66c0926a7a12b65d4b3d541b4c34a0f347f48758fd263f105d5cf20929176ccec8d5f61c8939",
+  "user": {
+    "email": "alekseevaninel@yandex.ru",
+    "name": "Христофор"
+  }
+}

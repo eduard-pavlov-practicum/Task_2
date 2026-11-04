@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "natan86@rambler.ru",
+    "name": "Ефрем"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWI4NjM4NzY4MTczMDAxYjg3MTVlOSIsImlhdCI6MTc5MzgyMDIxNiwiZXhwIjoxNzkzODIxNDE2fQ.DkrgIVamkr2woMnokeAYwVPXVCp5wxYF95rG31z3L_s",
+  "refreshToken": "d3eb1cdd7338de77148dd84e11c858a4c7b872af1fd2a227307f176fa29e88367d2e251c84b9e348"
+}

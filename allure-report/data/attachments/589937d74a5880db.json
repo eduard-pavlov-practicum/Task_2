@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "kapustinavasilisa@rambler.ru",
+    "name": "Карп"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWI4NjNhNzY4MTczMDAxYjg3MTVmYiIsImlhdCI6MTc5MzgyMDIxOCwiZXhwIjoxNzkzODIxNDE4fQ.HtTaMdmN0yDQs2JiwoUo_Kl3AiFf5TFt_pe6yRWAoBI",
+  "refreshToken": "d064249a1e14d698d11200ede95521d5ce75578cf2707b7a602061c3bc90a4d18a729673be68f701"
+}

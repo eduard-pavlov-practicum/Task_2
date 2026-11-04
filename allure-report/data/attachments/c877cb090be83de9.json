@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "kolesnikovfedot@mail.ru",
+    "name": "Феликс"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWI4NjM5NzY4MTczMDAxYjg3MTVmNSIsImlhdCI6MTc5MzgyMDIxNywiZXhwIjoxNzkzODIxNDE3fQ.zJZ2ZtMR0Z60UfgTwOGLheebCuAOe7JCkBJG-3DY2rg",
+  "refreshToken": "aec72f0f136937dbdacd69dabae581e151fafba64b4614716ea20c43f9d338ddf18db584f7bf92e7"
+}
