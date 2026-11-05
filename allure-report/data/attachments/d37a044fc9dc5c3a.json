@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "glafiraturova@gmail.com",
+    "name": "Юлия"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWNlMjMwNzY4MTczMDAxYjg3MjBmYSIsImlhdCI6MTc5MzkwOTI5NiwiZXhwIjoxNzkzOTEwNDk2fQ.0TU5UderBr6ZhOJ2Z4P6wHbt1m-akXliJYuDEWfl3qU",
+  "refreshToken": "0f45a6bd1bbbb6afa002d4e295521405c04659406501311b4ef3f5d6a33c25d2ec5d21b02cc80326"
+}

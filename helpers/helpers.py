@@ -18,10 +18,12 @@ def generate_random_user_data():
     }
 
 
+@allure.step('Создаем нового пользователя')
 def register_user(user_data):
     return api_client.post(Config.REGISTER, json=user_data)
 
 
+@allure.step('Удаляем созданного пользователя')
 def delete_registered_user(token: str):
     headers = {"Authorization": token}
     api_client.delete(Config.USER, headers=headers)

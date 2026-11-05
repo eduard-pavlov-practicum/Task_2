@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "name": "Бессмертный традиционный-галактический бургер",
+  "order": {
+    "ingredients": [
+      {
+        "_id": "6ae327a87e8698001b542b3b",
+        "name": "Мясо бессмертных моллюсков Protostomia",
+        "type": "main",
+        "proteins": 433,
+        "fat": 244,
+        "carbohydrates": 33,
+        "calories": 420,
+        "price": 1337,
+        "image": "https://code.s3.yandex.net/react/code/meat-02.png",
+        "image_mobile": "https://code.s3.yandex.net/react/code/meat-02-mobile.png",
+        "image_large": "https://code.s3.yandex.net/react/code/meat-02-large.png",
+        "__v": 0
+      },
+      {
+        "_id": "6ae327a87e8698001b542b40",
+        "name": "Соус традиционный галактический",
+        "type": "sauce",
+        "proteins": 42,
+        "fat": 24,
+        "carbohydrates": 42,
+        "calories": 99,
+        "price": 15,
+        "image": "https://code.s3.yandex.net/react/code/sauce-03.png",
+        "image_mobile": "https://code.s3.yandex.net/react/code/sauce-03-mobile.png",
+        "image_large": "https://code.s3.yandex.net/react/code/sauce-03-large.png",
+        "__v": 0
+      }
+    ],
+    "_id": "6aece232768173001b872112",
+    "owner": {
+      "name": "Рюрик",
+      "email": "felikspanov@rambler.ru",
+      "createdAt": "2026-11-05T20:08:18.490Z",
+      "updatedAt": "2026-11-05T20:08:18.490Z"
+    },
+    "status": "created",
+    "name": "Бессмертный традиционный-галактический бургер",
+    "createdAt": "2026-11-05T20:08:18.527Z",
+    "updatedAt": "2026-11-05T20:08:18.527Z",
+    "number": 1723,
+    "price": 1352
+  }
+}

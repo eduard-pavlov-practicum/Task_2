@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "matveevalekse@mail.ru",
+    "name": "Артемий"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWNlMjMwNzY4MTczMDAxYjg3MjBmNiIsImlhdCI6MTc5MzkwOTI5NiwiZXhwIjoxNzkzOTEwNDk2fQ.Jy7hXVP9q_8THiIkxsXKOuicPXTnAuUWxPZYJSaQrsg",
+  "refreshToken": "f37330537230bbde373a6bbe4e59b5e893c1ac9351133cf2c1fd91b5b218489b418d433828bfb017"
+}

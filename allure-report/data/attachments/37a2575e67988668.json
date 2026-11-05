@@ -1,9 +1,0 @@
-{
-  "success": true,
-  "user": {
-    "email": "safonovafekla@hotmail.com",
-    "name": "Мирослав"
-  },
-  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWI4NjM4NzY4MTczMDAxYjg3MTVlZSIsImlhdCI6MTc5MzgyMDIxNiwiZXhwIjoxNzkzODIxNDE2fQ.6yk78SWnA1MLBXKqqKTvZhLbkzujuUGw1ps8gb6mk74",
-  "refreshToken": "38bafa3878d00e0bc03efbf2352ec7496833dd36eec9bc051df1663dd990d26ffc7a0473bee3121a"
-}

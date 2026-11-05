@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "fortunat_12@yandex.ru",
+    "name": "Аверкий"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWNlMjMwNzY4MTczMDAxYjg3MjBmNCIsImlhdCI6MTc5MzkwOTI5NiwiZXhwIjoxNzkzOTEwNDk2fQ.qVACzTWVIR-FsDgpNe6Vu-sQp3Wkkc5CiIFeqMlAGt4",
+  "refreshToken": "3db09d3cd37ba26320af6877d382e8c0da7581c4712ea7b87c68dd88ef1d5f80531ceed1e1963679"
+}

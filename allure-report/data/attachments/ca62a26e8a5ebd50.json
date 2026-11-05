@@ -1,9 +1,0 @@
-{
-  "success": true,
-  "user": {
-    "email": "pavlovanonna@hotmail.com",
-    "name": "Маргарита"
-  },
-  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWI4NjM5NzY4MTczMDAxYjg3MTVmMCIsImlhdCI6MTc5MzgyMDIxNywiZXhwIjoxNzkzODIxNDE3fQ.hoOxKR4rfwUxx7K-KWQC3tq9y9tYNHKBOG5DA-TsEmw",
-  "refreshToken": "7d7b78f40e73f268f9f8fc637e57b100e80cb27dafd9c1ff397f76eca4f44f96f1a630ba98bc42ad"
-}

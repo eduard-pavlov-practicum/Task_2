@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "felikspanov@rambler.ru",
+    "name": "Рюрик"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWNlMjMyNzY4MTczMDAxYjg3MjExMCIsImlhdCI6MTc5MzkwOTI5OCwiZXhwIjoxNzkzOTEwNDk4fQ.hxv2EFeRz2Kt8kym9NM0n1cyQ89D_v6gEoPPCHZCsJo",
+  "refreshToken": "448ea3e66aac88b3c32c2ce4385fdf7d7aaf165a349854e923f7451ab7c8e3dfe5973b06dbeb9059"
+}

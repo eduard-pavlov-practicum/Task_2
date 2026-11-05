@@ -14,3 +14,9 @@ class Config:
     VALID_INGREDIENT_HASHES = [
         "6ae327a87e8698001b542b3b", "6ae327a87e8698001b542b40"]
     INVALID_INGREDIENT_HASH = VALID_INGREDIENT_HASHES[0][::-1]
+    EXISTING_EMAIL_MESSAGE = "User with such email already exists"
+    SHOULD_AUTHORIZED_MESSAGE = "You should be authorised"
+    INGREDIENT_MUST_PROVIDED_MESSAGE = "Ingredient ids must be provided"
+    USER_EXISTS_MESSAGE = "User already exists"
+    REQUIRED_FIELDS = "Email, password and name are required fields"
+    INCORRECT_CREDS_MESSAGE = "email or password are incorrect"

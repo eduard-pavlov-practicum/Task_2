@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "orders": [
+    {
+      "_id": "6aece232768173001b872112",
+      "ingredients": [
+        "6ae327a87e8698001b542b3b",
+        "6ae327a87e8698001b542b40"
+      ],
+      "status": "created",
+      "name": "Бессмертный традиционный-галактический бургер",
+      "createdAt": "2026-11-05T20:08:18.527Z",
+      "updatedAt": "2026-11-05T20:08:18.527Z",
+      "number": 1723
+    }
+  ],
+  "total": 1342,
+  "totalToday": 285
+}

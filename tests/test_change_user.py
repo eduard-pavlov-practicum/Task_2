@@ -22,10 +22,12 @@ class TestChangeUser:
 
         response = api_client.patch(Config.USER,
                                     headers=headers, json=payload)
-
-        assert response.status_code == 200
-        assert response.json()["success"] is True
-        assert response.json()["user"][field_to_update] == new_value
+        with allure.step('Проверить, что код ответа 200'):
+            assert response.status_code == 200
+        with allure.step('Проверить, что поле success == True'):
+            assert response.json()["success"] is True
+        with allure.step(f'Проверить, что у пользователя поле {field_to_update} == {new_value}'):
+            assert response.json()["user"][field_to_update] == new_value
 
     @allure.feature("Данные пользователя")
     @allure.story("Изменение данных")
@@ -40,11 +42,13 @@ class TestChangeUser:
 
         response = api_client.patch(Config.USER,
                                     headers=headers, json=payload)
+        with allure.step('Проверить, что код ответа 403'):
+            assert response.status_code == 403
 
-        assert response.status_code == 403
-        assert response.json()["success"] is False
-        assert response.json()[
-            "message"] == "User with such email already exists"
+        with allure.step('Проверить, что поле success == False'):
+            assert response.json()["success"] is False
+        with allure.step(f'Проверить, что поле в поле message содержится текст {Config.EXISTING_EMAIL_MESSAGE}'):
+            assert response.json()["message"] == Config.EXISTING_EMAIL_MESSAGE
         if test_user_token:
             delete_registered_user(test_user_token)
 
@@ -57,9 +61,12 @@ class TestChangeUser:
     ])
     def test_update_unauthorized_user_fields_forbidden(self, field_to_update, new_value):
         payload = {field_to_update: new_value}
-
-        response = api_client.patch(Config.USER, json=payload)
-
-        assert response.status_code == 401
-        assert response.json()["success"] is False
-        assert response.json()["message"] == "You should be authorised"
+        with allure.step(f'Обновляем поле {field_to_update}'):
+            response = api_client.patch(Config.USER, json=payload)
+        with allure.step('Проверить, что код ответа 401'):
+            assert response.status_code == 401
+        with allure.step('Проверить, что поле success == False'):
+            assert response.json()["success"] is False
+        with allure.step(f'Проверить, что поле в поле message содержится текст {Config.SHOULD_AUTHORIZED_MESSAGE}'):
+            assert response.json()[
+                "message"] == Config.SHOULD_AUTHORIZED_MESSAGE

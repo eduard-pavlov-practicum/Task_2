@@ -1,9 +1,0 @@
-{
-  "success": true,
-  "user": {
-    "email": "zhanna_2000@rambler.ru",
-    "name": "Ярослав"
-  },
-  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWI4NjNhNzY4MTczMDAxYjg3MTVmZiIsImlhdCI6MTc5MzgyMDIxOCwiZXhwIjoxNzkzODIxNDE4fQ.I5qDO6ZLzw_LHaVQoE8f3WxotVWKoVFBR8YquGnqFEI",
-  "refreshToken": "c1cd2a210ed29858d8bdb47a11d1e6f19d9a075fc9c2993cfd1c062185254a86ab72a082458f2011"
-}

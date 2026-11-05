@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "gavrilatsvetkov@gmail.com",
+    "name": "Ираклий"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWNlMjMwNzY4MTczMDAxYjg3MjBmYyIsImlhdCI6MTc5MzkwOTI5NiwiZXhwIjoxNzkzOTEwNDk2fQ.4BhKKf8sVeYoDZ51ZmDLgQOUbAROTkEG9wOCgQGFj1E",
+  "refreshToken": "d7f2213ac46462c2fac151a8b76c79618e2257b6655d359b1a325e45a3a0e4b3ced05fc7339f307e"
+}

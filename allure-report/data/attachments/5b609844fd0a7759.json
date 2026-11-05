@@ -1,9 +1,0 @@
-{
-  "success": true,
-  "user": {
-    "email": "svjatopolkkirillov@hotmail.com",
-    "name": "Адриан"
-  },
-  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWI4NjM5NzY4MTczMDAxYjg3MTVmNyIsImlhdCI6MTc5MzgyMDIxNywiZXhwIjoxNzkzODIxNDE3fQ.fc14rGS0-Z1aL-bewW_6de1uQp0wI4eqTU1BCSKYTYs",
-  "refreshToken": "723a07d171574718e9ba42e14bc476888c9ba9868174cd421c9d4b956de197293829ccf589bba172"
-}
