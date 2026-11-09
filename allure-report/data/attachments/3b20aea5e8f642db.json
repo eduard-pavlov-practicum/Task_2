@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "adamsergeev@yahoo.com",
+    "name": "Демид"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzNDEwNzY4MTczMDAxYjg3MzY0MSIsImlhdCI6MTc5NDI1NzkzNiwiZXhwIjoxNzk0MjU5MTM2fQ.eJi8oJmzLWxF6yDzRJ3ytChnK2wRZfc9IW4DQN5rSNU",
+  "refreshToken": "29b8211c66e19347f9d0b1d0e189488190395b86cfec0c9bc9beba931e5c605497933776cba40c4c"
+}

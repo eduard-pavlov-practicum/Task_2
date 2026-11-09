@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "judinelizar@yahoo.com",
+    "name": "Тихон"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzNDEwNzY4MTczMDAxYjg3MzY0NyIsImlhdCI6MTc5NDI1NzkzNiwiZXhwIjoxNzk0MjU5MTM2fQ.fIFNQ4Hb2e44ErJ9PquwMaI0Vw63Xqxwk3zVS08mZms",
+  "refreshToken": "e724a8dad16798d5eea196f8c3f9cb5153e84351041063b2f59fee2ec9f4f767683fbfa1b2c81bcd"
+}

@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "tihonovgalaktion@yandex.ru",
+    "name": "Павел"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzNDExNzY4MTczMDAxYjg3MzY1MSIsImlhdCI6MTc5NDI1NzkzNywiZXhwIjoxNzk0MjU5MTM3fQ._94F9ZnWUon6h07D4yaH-IfjGacXFthIMKPYuc_EayE",
+  "refreshToken": "a2f4edb30533fa3aec761e4b1631f2e6cdb5221a75624d130375c20a38e816a23c32b628108b6eee"
+}

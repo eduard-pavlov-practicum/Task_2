@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "gavrilakorolev@gmail.com",
+    "name": "Валентина"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzNDEwNzY4MTczMDAxYjg3MzY0NSIsImlhdCI6MTc5NDI1NzkzNiwiZXhwIjoxNzk0MjU5MTM2fQ.ToYZe-ryQN2L2g_U0qipEiZw_lVfnK7SB0LG3n85MaE",
+  "refreshToken": "156269a98084e244f74e80fa86e2ab465306d310c76e6f220b2cd336c19f32b9c88d008c476494a4"
+}

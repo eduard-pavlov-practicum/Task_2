@@ -1,9 +1,0 @@
-{
-  "success": true,
-  "user": {
-    "email": "averki_84@yahoo.com",
-    "name": "Егор"
-  },
-  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWNlMjMyNzY4MTczMDAxYjg3MjEwYyIsImlhdCI6MTc5MzkwOTI5OCwiZXhwIjoxNzkzOTEwNDk4fQ.lIkXPnPQUaYvwVQTeAD2c-TRDVIcQ3AYZZgyQ45QFMU",
-  "refreshToken": "f7fc13fa209cc238910c5a38ed557a58e05fc238b3b1097dcf9bcfccd632cb089cac73e5aa465a91"
-}

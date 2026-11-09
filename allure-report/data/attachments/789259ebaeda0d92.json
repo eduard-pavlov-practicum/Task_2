@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "ljubovgushchina@hotmail.com",
+    "name": "Радован"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzMzg0NzY4MTczMDAxYjg3MzYzNiIsImlhdCI6MTc5NDI1Nzc5NiwiZXhwIjoxNzk0MjU4OTk2fQ.s1iTSoMWY0JfaglNBC_BlDkeLNscncpHAfr3D-kagaA",
+  "refreshToken": "b2825c64f73ad6f10c14c972885de8406d4801598e2fd1e8fbe22309040d4cfb4a6ac6b9c1fbe83d"
+}

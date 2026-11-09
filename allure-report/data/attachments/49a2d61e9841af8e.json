@@ -1,9 +1,0 @@
-{
-  "success": true,
-  "user": {
-    "email": "stepanovnifont@mail.ru",
-    "name": "Ипат"
-  },
-  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWNlMjMwNzY4MTczMDAxYjg3MjBmOCIsImlhdCI6MTc5MzkwOTI5NiwiZXhwIjoxNzkzOTEwNDk2fQ.GaDn1RtIGhzqI6f-r1_l3OpzZrFNqNJUqbLkhMN2Mbw",
-  "refreshToken": "6f7eeddd03bab885a9db5d2803a66ddbcabf48c9a6c7f3f458354bcc3b842c2f40964a0bc220fe96"
-}

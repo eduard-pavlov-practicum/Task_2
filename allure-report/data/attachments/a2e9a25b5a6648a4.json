@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "gedeon24@yahoo.com",
+    "name": "Трифон"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzMzgzNzY4MTczMDAxYjg3MzYyYiIsImlhdCI6MTc5NDI1Nzc5NSwiZXhwIjoxNzk0MjU4OTk1fQ.N6HkfJGpgS7rSpH74UeaM2IFDX2CO60QE-fNyow1wBQ",
+  "refreshToken": "fac95da287464ceabff6860e180903a925dab631e99167509f18ab2c1d1b3da70eb46c02b5b6ec0f"
+}

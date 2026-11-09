@@ -1,9 +1,0 @@
-{
-  "success": true,
-  "user": {
-    "email": "rogovaraisa@yahoo.com",
-    "name": "Юлия"
-  },
-  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWNlMjMxNzY4MTczMDAxYjg3MjBmZiIsImlhdCI6MTc5MzkwOTI5NywiZXhwIjoxNzkzOTEwNDk3fQ.zqBkvKFvhx13Xyr6Vp4cCp3CD5uozOTtTj9XXJRkKic",
-  "refreshToken": "362d2ef0891501dec2c40343edc96f5ed73d83f82e0cc308c14626917999e19e2f040f17bc15d7ca"
-}

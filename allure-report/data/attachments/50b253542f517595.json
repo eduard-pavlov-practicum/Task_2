@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "ladislav2001@yandex.ru",
+    "name": "Лидия"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzNDExNzY4MTczMDAxYjg3MzY0YyIsImlhdCI6MTc5NDI1NzkzNywiZXhwIjoxNzk0MjU5MTM3fQ.SEIYPBxQ8vcfIF3qvoJfd1wvAttq5QE04gVhOT6mx8U",
+  "refreshToken": "ff1cd329291cccb231720d7cc9178d23c17b804c916e505af91a516d32e407596abf5e8b40b4cbb9"
+}

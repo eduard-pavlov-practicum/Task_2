@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "agafja_14@yandex.ru",
+    "name": "Архип"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzMzg0NzY4MTczMDAxYjg3MzYzYSIsImlhdCI6MTc5NDI1Nzc5NiwiZXhwIjoxNzk0MjU4OTk2fQ.s-wcSa7U3EIEz89tMdfklvhYOY1CHfsUclmyPOX6z2I",
+  "refreshToken": "698a94efbcfd972b273331e185738f7e77ba0b39516ecb87827325cca0747e42e9edd178d0175851"
+}

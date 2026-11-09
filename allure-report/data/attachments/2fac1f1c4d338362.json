@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "ermakovapelageja@yahoo.com",
+    "name": "Никифор"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzNDEwNzY4MTczMDAxYjg3MzY0YSIsImlhdCI6MTc5NDI1NzkzNiwiZXhwIjoxNzk0MjU5MTM2fQ.iV-qQWah3TnzFBq53uV1giVTAHfuMwxgXE6vEgcuovk",
+  "refreshToken": "9cdaa14c907a327e4bea2499b4dd35b5f87ac2a351b8c8d48a9deddc32ab5eeb9d277865d6a0d51c"
+}

@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "evlampi_93@yahoo.com",
+    "name": "Аким"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzMzgyNzY4MTczMDAxYjg3MzYyMiIsImlhdCI6MTc5NDI1Nzc5NCwiZXhwIjoxNzk0MjU4OTk0fQ.9JXy0p274a5q0zs0Dhf2ayA82D2Bi0stqcbSI93zv4A",
+  "refreshToken": "2ccf5256cea8b8a1b907af6ea04dada55ca3fd16ed01ba47057f93c3467141960309ff973132f833"
+}

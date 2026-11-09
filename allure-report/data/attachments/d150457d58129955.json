@@ -1,9 +1,0 @@
-{
-  "success": true,
-  "user": {
-    "email": "rodionovharlampi@rambler.ru",
-    "name": "Моисей"
-  },
-  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWNlMjMxNzY4MTczMDAxYjg3MjEwOCIsImlhdCI6MTc5MzkwOTI5NywiZXhwIjoxNzkzOTEwNDk3fQ.Gv9uxvceyR7mwgPO3VN8rann4Y8Qf9BIjTrrM0lrK-c",
-  "refreshToken": "00a7ec4b45833ff06820456232d734a4cbd0f3736f02fe6ae328e4ff5bd88cc040ea34d73b051218"
-}

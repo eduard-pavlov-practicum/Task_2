@@ -1,9 +1,0 @@
-{
-  "success": true,
-  "user": {
-    "email": "ljudmilakozlova@yahoo.com",
-    "name": "Галактион"
-  },
-  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWNlMjMyNzY4MTczMDAxYjg3MjEwZSIsImlhdCI6MTc5MzkwOTI5OCwiZXhwIjoxNzkzOTEwNDk4fQ.Lyjox4zLgTtEhW9Qvn7jqAs2mdSFuovYsOZ4_A_kxuI",
-  "refreshToken": "04c15d3f2a7bb4d882c6ff0a49cd86015d7b6baa7f6f1ebd8daf173ed61293393f921434d49b7dca"
-}

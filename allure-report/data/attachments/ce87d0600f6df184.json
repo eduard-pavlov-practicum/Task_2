@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "maksimiljan1970@yandex.ru",
+    "name": "Милован"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzMzg1NzY4MTczMDAxYjg3MzYzYyIsImlhdCI6MTc5NDI1Nzc5NywiZXhwIjoxNzk0MjU4OTk3fQ.iL0bxfjFmpfkWHuYbpqL4Lg19-_m3aOcOZfsKZUuHJQ",
+  "refreshToken": "53273db78a4122bdaabc82b48a89e31fb7f2529ee360f5c4458d045b2eb5c4e7c986804acd3dc3a9"
+}

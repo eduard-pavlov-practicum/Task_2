@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "evfrosinija68@gmail.com",
+    "name": "Соломон"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzNDExNzY4MTczMDAxYjg3MzY1MyIsImlhdCI6MTc5NDI1NzkzNywiZXhwIjoxNzk0MjU5MTM3fQ.ottlGUf7und_wyaB_jtPAT7bKeaYs8yK8i4AjnyYyeI",
+  "refreshToken": "2bc9872743edbd42d9c1f60522acb96e9bb1eccc6934808c6ea9b1715a4da95a6ac51845d79e8f9c"
+}

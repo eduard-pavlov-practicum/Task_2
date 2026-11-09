@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "nikita2022@yahoo.com",
+    "name": "Родион"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzMzgyNzY4MTczMDAxYjg3MzYyNiIsImlhdCI6MTc5NDI1Nzc5NCwiZXhwIjoxNzk0MjU4OTk0fQ.VFDeOa6zq9TRhGHih5NXqn30rStCrPKiq5GhT0XcKRY",
+  "refreshToken": "a0059cb5326fc81e28ad45851172bb3a230d5575e71f502bb6940b06519f9f7952259ea25b929eae"
+}

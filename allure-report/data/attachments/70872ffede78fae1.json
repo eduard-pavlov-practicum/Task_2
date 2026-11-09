@@ -1,9 +1,0 @@
-{
-  "success": true,
-  "user": {
-    "email": "aksenovapraskovja@rambler.ru",
-    "name": "Ярослав"
-  },
-  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZWNlMjMxNzY4MTczMDAxYjg3MjEwMSIsImlhdCI6MTc5MzkwOTI5NywiZXhwIjoxNzkzOTEwNDk3fQ.uEQn1GZZ5ngrG-C6AdMyUSABztVNXwClYnAVOIm0XjQ",
-  "refreshToken": "c5255a7c3cb3566ec3d2b17eb19a755f0c06d48ed484c0c9e513bc7269da348e2711bc876d155917"
-}
