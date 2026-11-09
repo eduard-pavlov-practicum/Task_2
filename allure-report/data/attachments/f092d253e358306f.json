@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "ivanna80@mail.ru",
+    "name": "Эдуард"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzNDEyNzY4MTczMDAxYjg3MzY1NSIsImlhdCI6MTc5NDI1NzkzOCwiZXhwIjoxNzk0MjU5MTM4fQ.rfOHivCUGoaKdHq3RDpmP1j1sfVnORPZDw4AkLccX5s",
+  "refreshToken": "484d457180fdf3d2194adcdd7a68d42e57221bd6a7476c0647e6cca4b11086a41c9db6a17d2854a2"
+}

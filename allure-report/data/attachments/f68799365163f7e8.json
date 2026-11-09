@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "andronik_2004@rambler.ru",
+    "name": "Якуб"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzNDEyNzY4MTczMDAxYjg3MzY1OSIsImlhdCI6MTc5NDI1NzkzOCwiZXhwIjoxNzk0MjU5MTM4fQ.OFoxvUErUHTGz6IYYajR9VE92Ma7Ss0n4GAzRlRzyYY",
+  "refreshToken": "e183e96e686e57e032dad75f3cf7580aa37383e15600602aa77b0e0ad3bebdaa0a7c08d591f46bb6"
+}

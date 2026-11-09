@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "lavrentevandronik@rambler.ru",
+    "name": "Парфен"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzNDEyNzY4MTczMDAxYjg3MzY1YiIsImlhdCI6MTc5NDI1NzkzOCwiZXhwIjoxNzk0MjU5MTM4fQ.c4pkvqtTmdEvoOGlX4sH22A0wA6BoR2FSoXUXp2BcgA",
+  "refreshToken": "f2ee584758c3b2546c05e4587781a57a68f349462adafe399c63ef2dc524236e872f5b9b411ee9eb"
+}

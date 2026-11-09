@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "ostromir_20@rambler.ru",
+    "name": "Лидия"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzNDEyNzY4MTczMDAxYjg3MzY1NyIsImlhdCI6MTc5NDI1NzkzOCwiZXhwIjoxNzk0MjU5MTM4fQ.dV1NmxDGHYgw2sL0N14E5r3lV-LVQ86NWa6FA0_S69Q",
+  "refreshToken": "f4452c50f953d33dee542a9167dbb7f271059f626c72cfdd5585f39a0a6fd04ae27884f05fd0c637"
+}

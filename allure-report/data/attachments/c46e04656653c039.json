@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "stepanovatamara@yahoo.com",
+    "name": "Григорий"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzMzgyNzY4MTczMDAxYjg3MzYyNCIsImlhdCI6MTc5NDI1Nzc5NCwiZXhwIjoxNzk0MjU4OTk0fQ.VzvdtiGxSXOSzlIwjpgr1qK1CPkZACH88wWBZTE24sQ",
+  "refreshToken": "77475025613493e1ffcb6827bb185926c9ff11464d06d4be5b202db539874b7db4fa065a770eb820"
+}

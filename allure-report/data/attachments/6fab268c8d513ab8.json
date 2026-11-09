@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzNDExNzY4MTczMDAxYjg3MzY0ZSIsImlhdCI6MTc5NDI1NzkzNywiZXhwIjoxNzk0MjU5MTM3fQ.t6eCMUHVs01pLJn8AHFE0vKq2ePD8cRezxtm5zdxkDg",
+  "refreshToken": "6f874cbbd7cacff3bcac9df264508270990010905775664bc3467a7ec65c64c3c52d93b19814b985",
+  "user": {
+    "email": "gordeevavasilisa@gmail.com",
+    "name": "Гостомысл"
+  }
+}

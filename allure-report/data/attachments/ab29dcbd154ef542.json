@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "hohlovairina@hotmail.com",
+    "name": "Венедикт"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzNDBmNzY4MTczMDAxYjg3MzYzZiIsImlhdCI6MTc5NDI1NzkzNSwiZXhwIjoxNzk0MjU5MTM1fQ.qyN57o7-WLLozFN80HBPX1EucCbP7fdmJnG5SyKshDA",
+  "refreshToken": "39653eed09837d50d21dc8d4670d013fcdcb7e8854bb6842cde060dc430fd5b1b4b15bb1c55a6956"
+}

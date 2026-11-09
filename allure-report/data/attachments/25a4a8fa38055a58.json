@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "nkalashnikova@yandex.ru",
+    "name": "Афиноген"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzMzg0NzY4MTczMDAxYjg3MzYzOCIsImlhdCI6MTc5NDI1Nzc5NiwiZXhwIjoxNzk0MjU4OTk2fQ.siXBwRNo5IPKtEifRQMAbyoMJKxfVGXZZpCVvihoQAk",
+  "refreshToken": "8af3941806d4653d3150d6e86e6cf45578fbbf45882ffdcd71a66e0167fdcf581767f717831b239e"
+}

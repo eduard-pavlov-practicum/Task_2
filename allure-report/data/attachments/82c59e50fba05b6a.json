@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "potap_1996@hotmail.com",
+    "name": "Демьян"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzMzg0NzY4MTczMDAxYjg3MzYzNCIsImlhdCI6MTc5NDI1Nzc5NiwiZXhwIjoxNzk0MjU4OTk2fQ.EmuCWgYdgclbY95_84G16mTQIzEIykvhNCA3Unifqdk",
+  "refreshToken": "b1dadb9ee4d92b2278646e6b1d38a15fe0d80db02cc8ed694959332aaa66faa42c156f603ae021b8"
+}

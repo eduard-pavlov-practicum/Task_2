@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "veraandreeva@yahoo.com",
+    "name": "Вышеслав"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzMzgzNzY4MTczMDAxYjg3MzYzMiIsImlhdCI6MTc5NDI1Nzc5NSwiZXhwIjoxNzk0MjU4OTk1fQ.gSPsG4bMXfW9gTW3PdSMmEBK05ke20q6Tm3sDAT8Vnc",
+  "refreshToken": "c822a7ec255fc33287b12649b0d1d4f29a69fe0f88b79faba617f4d910def6eae8b023cc5e3aca03"
+}

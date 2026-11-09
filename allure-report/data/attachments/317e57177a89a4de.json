@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "feliks_83@gmail.com",
+    "name": "Валентина"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzMzgzNzY4MTczMDAxYjg3MzYyZCIsImlhdCI6MTc5NDI1Nzc5NSwiZXhwIjoxNzk0MjU4OTk1fQ.aHyzVwxvjSjcJzKSwtCLAGe2vYRfDuIacHAgkpuDEpw",
+  "refreshToken": "7a12621cd461ae24f658ade74713316ea86ffbd13570622ab7929fce7fe1d50d8911aff3c279305c"
+}

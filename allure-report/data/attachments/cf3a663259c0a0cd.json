@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "nikiforovflorentin@yahoo.com",
+    "name": "Аскольд"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzMzgyNzY4MTczMDAxYjg3MzYyMCIsImlhdCI6MTc5NDI1Nzc5NCwiZXhwIjoxNzk0MjU4OTk0fQ.Ad8q1IcgejSWGkMTiyBABJwBn-Gyp_KWpVoQ8J0lOy8",
+  "refreshToken": "5115687802acb93e884fdd43005465b9640f0b92c0a37ab1c97fa611522c0bdfb5598ce008a48e59"
+}

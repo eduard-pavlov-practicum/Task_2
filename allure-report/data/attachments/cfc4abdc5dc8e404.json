@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzMzgzNzY4MTczMDAxYjg3MzYyZiIsImlhdCI6MTc5NDI1Nzc5NSwiZXhwIjoxNzk0MjU4OTk1fQ.iOcEW5YguTu21UAoAlANov3W3PLPlMIz93AFfykZwvw",
+  "refreshToken": "2b00217ab3a9efee4ff8120c97a9dbcee89c4a50ce9f3a3894299a158eb1c361f59ad884f62f9b78",
+  "user": {
+    "email": "uljanaterenteva@yahoo.com",
+    "name": "Сергей"
+  }
+}

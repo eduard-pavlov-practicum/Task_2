@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "avgust_1978@mail.ru",
+    "name": "Ульяна"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzNDEwNzY4MTczMDAxYjg3MzY0MyIsImlhdCI6MTc5NDI1NzkzNiwiZXhwIjoxNzk0MjU5MTM2fQ.YFVFdZ-JY8Zv9OQpvQbMSoWGm1eF83NQihaqEfPCcSs",
+  "refreshToken": "ecc07ab4366e7d56cc628664cca21e7a3fd4e6679e8fc41c062136a33b0349d36eb7746103457bf6"
+}

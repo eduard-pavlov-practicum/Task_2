@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "user": {
+    "email": "solomon1996@yahoo.com",
+    "name": "Харитон"
+  },
+  "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhZjIzMzgyNzY4MTczMDAxYjg3MzYyOCIsImlhdCI6MTc5NDI1Nzc5NCwiZXhwIjoxNzk0MjU4OTk0fQ.Lzy58VSNsWs9gfprDiTtszugKuNXyKfBZDyDhrguBR0",
+  "refreshToken": "239dc483ddf62e54916db9f065744f13d9d68b3e22faf94ad79853998168850c55ac1f3f439dab1b"
+}
