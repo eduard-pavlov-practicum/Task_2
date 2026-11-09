@@ -1,6 +1,6 @@
 import pytest
 import allure
-from helpers.constants import Config
+from helpers.constants import Urls, Messages
 from helpers.helpers import api_client
 
 
@@ -14,7 +14,7 @@ class TestLoginUser:
         payload = {"email": registered_user["email"],
                    "password": registered_user["password"]}
         with allure.step('Логиним пользователя'):
-            response = api_client.post(Config.LOGIN, json=payload)
+            response = api_client.post(Urls.LOGIN, json=payload)
 
         with allure.step('Проверить, что код ответа 200'):
             assert response.status_code == 200
@@ -41,10 +41,10 @@ class TestLoginUser:
         if payload_modifier.get("password") == "valid_password":
             payload["password"] = registered_user["password"]
         with allure.step('Логиним пользователя с неверными креденшелами'):
-            response = api_client.post(Config.LOGIN, json=payload)
+            response = api_client.post(Urls.LOGIN, json=payload)
         with allure.step('Проверить, что код ответа 401'):
             assert response.status_code == 401
         with allure.step('Проверить, что поле success == False'):
             assert response.json()["success"] is False
-        with allure.step(f'Проверить, что поле в поле message содержится текст {Config.INCORRECT_CREDS_MESSAGE}'):
-            assert response.json()["message"] == Config.INCORRECT_CREDS_MESSAGE
+        with allure.step(f'Проверить, что поле в поле message содержится текст {Messages.INCORRECT_CREDS_MESSAGE}'):
+            assert response.json()["message"] == Messages.INCORRECT_CREDS_MESSAGE

@@ -1,6 +1,6 @@
 import pytest
 import allure
-from helpers.constants import Config
+from helpers.constants import Urls, Ingredients, Messages
 from helpers.helpers import api_client
 
 
@@ -22,21 +22,21 @@ class TestCreateOrder:
         if not has_ingredients:
             payload = {"ingredients": []}
         elif not valid_hash:
-            payload = {"ingredients": [Config.INVALID_INGREDIENT_HASH]}
+            payload = {"ingredients": [Ingredients.INVALID_INGREDIENT_HASH]}
         else:
-            payload = {"ingredients": Config.VALID_INGREDIENT_HASHES}
+            payload = {"ingredients": Ingredients.VALID_INGREDIENT_HASHES}
         with allure.step('Создаем заказ'):
             response = api_client.post(
-                Config.ORDERS, headers=headers, json=payload)
+                Urls.ORDERS, headers=headers, json=payload)
 
         if not has_ingredients:
             with allure.step('Проверить, что код ответа 200'):
                 assert response.status_code == 400
             with allure.step('Проверить, что поле success == False'):
                 assert response.json()["success"] is False
-            with allure.step(f'Проверить, что поле в поле message содержится текст {Config.INGREDIENT_MUST_PROVIDED_MESSAGE}'):
+            with allure.step(f'Проверить, что поле в поле message содержится текст {Messages.INGREDIENT_MUST_PROVIDED_MESSAGE}'):
                 assert response.json()[
-                    "message"] == Config.INGREDIENT_MUST_PROVIDED_MESSAGE
+                    "message"] == Messages.INGREDIENT_MUST_PROVIDED_MESSAGE
         elif not valid_hash:
             with allure.step('Проверить, что код ответа 500'):
                 assert response.status_code == 500
@@ -53,14 +53,14 @@ class TestCreateOrder:
     @allure.title("Создание заказа не авторизованным пользователем: Валидные ингредиенты")
     def test_create_order_not_authorized_user_redirect_to_login(self):
 
-        payload = {"ingredients": Config.VALID_INGREDIENT_HASHES}
+        payload = {"ingredients": Ingredients.VALID_INGREDIENT_HASHES}
         with allure.step('Создаем заказ'):
-            response = api_client.post(Config.ORDERS, json=payload)
+            response = api_client.post(Urls.ORDERS, json=payload)
 
         # Проверяем, что произошёл редирект (вся группа 3хх кодов, так как в доке не указан конкретный код)
         with allure.step('Проверить, что код ответа из группы 300'):
             assert response.status_code // 100 == 3, f"Ожидался статус 3xx, получен {response.status_code}"
         # Проверяем, что Location header указывает на правильный URL
-        with allure.step(f'Проверить, что заголовок Location содержит url {Config.REDIRECT_LOGIN}'):
-            assert response.headers.get("Location") == Config.REDIRECT_LOGIN, \
-                f"Ожидалось Location: {Config.REDIRECT_LOGIN}, получено {response.headers.get('Location')}"
+        with allure.step(f'Проверить, что заголовок Location содержит url {Urls.REDIRECT_LOGIN}'):
+            assert response.headers.get("Location") == Urls.REDIRECT_LOGIN, \
+                f"Ожидалось Location: {Urls.REDIRECT_LOGIN}, получено {response.headers.get('Location')}"

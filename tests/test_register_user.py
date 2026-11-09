@@ -1,6 +1,6 @@
 import pytest
 import allure
-from helpers.constants import Config
+from helpers.constants import Urls, Messages
 from helpers.helpers import api_client, delete_registered_user
 
 
@@ -13,7 +13,7 @@ class TestRegisterUser:
     def test_create_unique_user_success(self, unique_user_payload):
         with allure.step('Регистрируем нового пользователя'):
             response = api_client.post(
-                Config.REGISTER, json=unique_user_payload)
+                Urls.REGISTER, json=unique_user_payload)
         with allure.step('Проверить, что код ответа 200'):
             assert response.status_code == 200
         with allure.step('Проверить, что поле success == True'):
@@ -35,13 +35,13 @@ class TestRegisterUser:
             "name": registered_user["name"]
         }
         with allure.step('Регистрируем того же самого пользователя'):
-            response = api_client.post(Config.REGISTER, json=payload)
+            response = api_client.post(Urls.REGISTER, json=payload)
         with allure.step('Проверить, что код ответа 403'):
             assert response.status_code == 403
         with allure.step('Проверить, что поле success == False'):
             assert response.json()["success"] is False
-        with allure.step(f'Проверить, что поле в поле message содержится текст {Config.USER_EXISTS_MESSAGE}'):
-            assert response.json()["message"] == Config.USER_EXISTS_MESSAGE
+        with allure.step(f'Проверить, что поле в поле message содержится текст {Messages.USER_EXISTS_MESSAGE}'):
+            assert response.json()["message"] == Messages.USER_EXISTS_MESSAGE
 
     @allure.feature("Создание пользователя")
     @allure.story("Регистрация")
@@ -51,10 +51,10 @@ class TestRegisterUser:
         del unique_user_payload[missing_field]
         with allure.step(f'Регистрируем пользователя без указания {missing_field}'):
             response = api_client.post(
-                Config.REGISTER, json=unique_user_payload)
+                Urls.REGISTER, json=unique_user_payload)
         with allure.step('Проверить, что код ответа 403'):
             assert response.status_code == 403
         with allure.step('Проверить, что поле success == False'):
             assert response.json()["success"] is False
-        with allure.step(f'Проверить, что поле в поле message содержится текст {Config.REQUIRED_FIELDS}'):
-            assert response.json()["message"] == Config.REQUIRED_FIELDS
+        with allure.step(f'Проверить, что поле в поле message содержится текст {Messages.REQUIRED_FIELDS}'):
+            assert response.json()["message"] == Messages.REQUIRED_FIELDS
