@@ -26,20 +26,22 @@ class TestLoginUser:
     @allure.feature("Авторизация пользователя")
     @allure.story("Логин")
     @allure.title("Граничные кейсы: Неверные креденшелы при логине")
-    @pytest.mark.parametrize("payload_modifier", [
-        {"email": "wrong_@email@ya.ru", "password": "valid_password"},
-        {"email": "valid_email@ya.ru", "password": "wrong_password"},
-        {"email": "", "password": "valid_password"}
-    ], ids=["wrong_email", "wrong_password", "empty_email"])
-    def test_login_invalid_credentials_unauthorized(self, registered_user, payload_modifier):
-        payload = {"email": registered_user["email"],
-                   "password": registered_user["password"]}
-        payload.update(payload_modifier)
+    @pytest.mark.parametrize(
+        "field, invalid_value",
+        [
+            ("email", "wrong_@email@ya.ru"),
+            ("password", "wrong_password"),
+            ("email", ""),
+        ],
+        ids=["wrong_email", "wrong_password", "empty_email"]
+        )
+    def test_login_invalid_credentials_unauthorized(self, registered_user, field, invalid_value):
+        payload = {
+            "email": registered_user["email"],
+            "password": registered_user["password"]
+        }
+        payload[field] = invalid_value
 
-        if payload_modifier.get("email") == "valid_email@ya.ru":
-            payload["email"] = registered_user["email"]
-        if payload_modifier.get("password") == "valid_password":
-            payload["password"] = registered_user["password"]
         with allure.step('Логиним пользователя с неверными креденшелами'):
             response = api_client.post(Urls.LOGIN, json=payload)
         with allure.step('Проверить, что код ответа 401'):

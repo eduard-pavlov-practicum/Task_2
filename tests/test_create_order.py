@@ -9,44 +9,63 @@ class TestCreateOrder:
 
     @allure.feature("Управление заказами")
     @allure.story("Создание заказа")
-    @allure.title("Создание заказа авторизованным пользователем: Валидные ингредиенты, без ингредиентов, невалидный хеш")
-    @pytest.mark.parametrize("has_ingredients, valid_hash", [
-        (True, True),     # с валидными ингредиентами
-        (False, True),    # без ингредиентов
-        (True, False),    # с неверным хешем ингредиента
-    ], ids=["valid_ingredients", "empty_ingredients", "invalid_hash"])
-    def test_create_order_return_valid_response(self, registered_user, has_ingredients, valid_hash):
+    @allure.title("Создание заказа авторизованным пользователем: Валидные ингредиенты")
+    def test_create_order_with_valid_request_return_successful_response(self, registered_user):
         headers = {
             "Authorization": registered_user["accessToken"]}
 
-        if not has_ingredients:
-            payload = {"ingredients": []}
-        elif not valid_hash:
-            payload = {"ingredients": [Ingredients.INVALID_INGREDIENT_HASH]}
-        else:
-            payload = {"ingredients": Ingredients.VALID_INGREDIENT_HASHES}
+        payload = {"ingredients": Ingredients.VALID_INGREDIENT_HASHES}
+
         with allure.step('Создаем заказ'):
             response = api_client.post(
                 Urls.ORDERS, headers=headers, json=payload)
 
-        if not has_ingredients:
-            with allure.step('Проверить, что код ответа 200'):
-                assert response.status_code == 400
-            with allure.step('Проверить, что поле success == False'):
-                assert response.json()["success"] is False
-            with allure.step(f'Проверить, что поле в поле message содержится текст {Messages.INGREDIENT_MUST_PROVIDED_MESSAGE}'):
-                assert response.json()[
-                    "message"] == Messages.INGREDIENT_MUST_PROVIDED_MESSAGE
-        elif not valid_hash:
-            with allure.step('Проверить, что код ответа 500'):
-                assert response.status_code == 500
-        else:
-            with allure.step('Проверить, что код ответа 200'):
-                assert response.status_code == 200
-            with allure.step('Проверить, что поле success == True'):
-                assert response.json()["success"] is True
-            with allure.step('Проверить, что в ответе есть order'):
-                assert "order" in response.json()
+        with allure.step('Проверить, что код ответа 200'):
+            assert response.status_code == 200
+        with allure.step('Проверить, что поле success == True'):
+            assert response.json()["success"] is True
+        with allure.step('Проверить, что в ответе есть order'):
+            assert "order" in response.json()
+
+
+    @allure.feature("Управление заказами")
+    @allure.story("Создание заказа")
+    @allure.title("Создание заказа авторизованным пользователем: Без ингредиентов")
+    def test_create_order_without_ingredients_return_400_with_message(self, registered_user):
+        headers = {
+            "Authorization": registered_user["accessToken"]}
+
+        payload = {"ingredients": []}
+        
+        with allure.step('Создаем заказ'):
+            response = api_client.post(
+                Urls.ORDERS, headers=headers, json=payload)
+
+        with allure.step('Проверить, что код ответа 400'):
+            assert response.status_code == 400
+        with allure.step('Проверить, что поле success == False'):
+            assert response.json()["success"] is False
+        with allure.step(f'Проверить, что поле в поле message содержится текст {Messages.INGREDIENT_MUST_PROVIDED_MESSAGE}'):
+            assert response.json()[
+                "message"] == Messages.INGREDIENT_MUST_PROVIDED_MESSAGE
+
+
+    @allure.feature("Управление заказами")
+    @allure.story("Создание заказа")
+    @allure.title("Создание заказа авторизованным пользователем: Невалидный хеш")
+    def test_create_order_invalid_ingredients_return_500(self, registered_user):
+        headers = {
+            "Authorization": registered_user["accessToken"]}
+
+        payload = {"ingredients": [Ingredients.INVALID_INGREDIENT_HASH]}
+
+        with allure.step('Создаем заказ'):
+            response = api_client.post(
+                Urls.ORDERS, headers=headers, json=payload)
+
+        with allure.step('Проверить, что код ответа 500'):
+            assert response.status_code == 500
+
 
     @allure.feature("Управление заказами")
     @allure.story("Создание заказа")
